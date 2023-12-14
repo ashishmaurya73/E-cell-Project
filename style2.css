@@ -1,0 +1,191 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: white;
+    color: rgb(231,109,45);
+    /* padding: 1em; */
+    height: 140px;
+    text-align: center;
+    /* height: 50px; */
+}
+
+
+.navbar{
+    background-color: rgb(125,190,49);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+ .navname {
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: rgb(71, 31, 31);
+    
+}
+.navbar .navlist{
+    display: flex;
+    /* height: 50px; */
+    /* padding: 5px 10px; */
+    justify-content:center;
+
+}
+
+.navbar .navlist li{
+    color: black;
+    list-style: none;
+    margin: 10px 3px;
+    padding: 1px 9px;
+}
+.navbar .navlist li a{
+    padding: 3px 3px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.navbar .navlist li a:hover{
+   color: rgb(65, 64, 64);
+}
+
+.navbar input{
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar .navbutton button{
+    border: 1px solid black;
+    border-radius: 14px;
+    background-color: rgb(237, 196, 160);
+    padding: 3px 17px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+}
+.navbar .navbutton button:hover{
+    color: rgb(65, 64, 64);
+    cursor: pointer;
+}
+
+.content1{
+    font-size: 20px;
+    margin-left:30px ;
+}
+
+.content{
+    display: flex;
+    margin: 20px;
+    /* padding: 50px 50px; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+.content .course{
+    /* margin: 60px; */
+    height: 60vh;
+    width: 360px;
+    border-radius: 10px;
+    border: 3px solid rgb(71, 71, 71);
+    box-shadow: 5px 10px 15px;
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+    margin-bottom: 50px;
+    background-color: rgb(199, 197, 199);
+    /* align-items: end; */
+
+
+}
+.content .course img{
+    height: 200px;
+    width: 360px;
+    border-radius: 7px;
+
+}
+.content .course .discription span{
+    /* border: 1px solid black; */
+    background-color: gray;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 3px 17px;
+    text-align: center;
+    width: 110px;
+    height: 30px;
+    font-weight: bold;
+    margin: 10px 1px 1px 1px;
+}
+.discription{
+    margin-left: 5px;
+}
+.content .course button{
+    /* border: 1px solid black; */
+    background-color: rgb(125,190,49);
+    color: black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    text-align: center;
+    width: 110px;
+    height: 30px;
+    font-weight: bold;
+    margin: 1px 1px 1px 120px;
+}
+.content .course button:hover{
+    color: rgb(65, 64, 64);
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* border: 2px solid rgb(189, 41, 41); */
+    margin-top: -12px;
+    height: 42px;
+    /* height: 100vw; */
+  }
+  .footer1{
+    
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: black;
+
+      /* border: 2px solid red; */
+      width: 100vw;
+      height: 42px;
+      margin-right: 15px;
+      /* margin-right: 229px; */
+      border-radius: 10px;
+    }
+    .footchild a{
+      /* font-family: 'Lobster', cursive; */
+      font-size: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    
+      color: rgb(219, 219, 224);
+    }
+    
+  
+   
+    
+   
+   
